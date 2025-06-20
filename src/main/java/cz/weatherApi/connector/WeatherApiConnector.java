@@ -1,5 +1,6 @@
 package cz.weatherApi.connector;
 
+import cz.weatherApi.City;
 import cz.weatherApi.dto.WeatherApiDto;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
@@ -15,11 +16,11 @@ public class WeatherApiConnector {
     private static String apiKey = "7b99e5120ffa45e5b71110830251905";
     private static String url = baseUrl + urlParams + apiKey + "&q=";
 
-    public WeatherApiDto getWeatherForCity(String city){
+    public WeatherApiDto getWeatherForCity(City city){
         RestTemplate template = new RestTemplate();
         URI uri = null;
         try {
-            uri = new URI(url + city);
+            uri = new URI(url + city.toString());
         } catch (URISyntaxException e){
             e.printStackTrace();
         }

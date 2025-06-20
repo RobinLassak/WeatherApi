@@ -1,5 +1,6 @@
 package cz.weatherApi.controller;
 
+import cz.weatherApi.City;
 import cz.weatherApi.dto.WeatherDto;
 import cz.weatherApi.service.WeatherService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +22,7 @@ public class WeatherController {
 
     @GetMapping("/weather/{city}")
     public WeatherDto getWeatherForCity(@PathVariable("city") String city){
-        return service.getWeatherForCity(city);
+        City cityEnum = City.valueOf(city.toUpperCase());
+        return service.getWeatherForCity(cityEnum);
     }
 }

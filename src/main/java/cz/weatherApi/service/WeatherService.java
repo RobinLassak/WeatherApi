@@ -1,5 +1,6 @@
 package cz.weatherApi.service;
 
+import cz.weatherApi.City;
 import cz.weatherApi.connector.WeatherApiConnector;
 import cz.weatherApi.dto.WeatherApiDto;
 import cz.weatherApi.dto.WeatherDto;
@@ -7,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class WeatherService {
-    public WeatherDto getWeatherForCity(String city){
+    public WeatherDto getWeatherForCity(City city){
         WeatherApiConnector connector = new WeatherApiConnector();
         WeatherApiDto weatherApiDto = connector.getWeatherForCity(city);
         WeatherDto weatherDto = transformDto(weatherApiDto);
