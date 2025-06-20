@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4900048d-67f9-45de-affa-99aef619275d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/weatherApi/connector/WeatherApiConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/weatherApi/dto/Condition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/weatherApi/dto/Current.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/weatherApi/dto/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/weatherApi/dto/WeatherApiDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/weatherApi/connector/WeatherApiConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/weatherApi/connector/WeatherApiConnector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750400097554</updated>
-      <workItem from="1750400098616" duration="4837000" />
+      <workItem from="1750400098616" duration="6020000" />
     </task>
     <servers />
   </component>
