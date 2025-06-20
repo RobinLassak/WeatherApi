@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4900048d-67f9-45de-affa-99aef619275d" name="Changes" comment="Transform data from API to my Weather">
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/weatherApi/service/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/weatherApi/service/WeatherService.java" afterDir="false" />
+    <list default="true" id="4900048d-67f9-45de-affa-99aef619275d" name="Changes" comment="Oprava">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cz/weatherApi/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -81,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750400097554</updated>
-      <workItem from="1750400098616" duration="10148000" />
+      <workItem from="1750400098616" duration="11870000" />
     </task>
     <task id="LOCAL-00001" summary="WeatherApiConnector">
       <option name="closed" value="true" />
@@ -163,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750411792318</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Oprava">
+      <option name="closed" value="true" />
+      <created>1750411869294</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1750411869294</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,12 +183,12 @@
     <MESSAGE value="WeatherApiConnector" />
     <MESSAGE value="WeatherService" />
     <MESSAGE value="WeatherController" />
-    <MESSAGE value="Oprava" />
     <MESSAGE value="Dto GetSet" />
     <MESSAGE value="Change string to WeatherApiDto" />
     <MESSAGE value="WeatherDto" />
     <MESSAGE value="Transform data from API to my Weather" />
-    <option name="LAST_COMMIT_MESSAGE" value="Transform data from API to my Weather" />
+    <MESSAGE value="Oprava" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oprava" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
