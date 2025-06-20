@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4900048d-67f9-45de-affa-99aef619275d" name="Changes" comment="WeatherDto">
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/weatherApi/controller/WeatherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/weatherApi/controller/WeatherController.java" afterDir="false" />
+    <list default="true" id="4900048d-67f9-45de-affa-99aef619275d" name="Changes" comment="Transform data from API to my Weather">
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/weatherApi/service/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/weatherApi/service/WeatherService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750400097554</updated>
-      <workItem from="1750400098616" duration="10033000" />
+      <workItem from="1750400098616" duration="10148000" />
     </task>
     <task id="LOCAL-00001" summary="WeatherApiConnector">
       <option name="closed" value="true" />
@@ -140,7 +139,31 @@
       <option name="project" value="LOCAL" />
       <updated>1750410829080</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Transform data from API to my Weather">
+      <option name="closed" value="true" />
+      <created>1750411761027</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1750411761027</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Transform data from API to my Weather">
+      <option name="closed" value="true" />
+      <created>1750411784041</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750411784041</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Transform data from API to my Weather">
+      <option name="closed" value="true" />
+      <created>1750411792318</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1750411792318</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +177,8 @@
     <MESSAGE value="Dto GetSet" />
     <MESSAGE value="Change string to WeatherApiDto" />
     <MESSAGE value="WeatherDto" />
-    <option name="LAST_COMMIT_MESSAGE" value="WeatherDto" />
+    <MESSAGE value="Transform data from API to my Weather" />
+    <option name="LAST_COMMIT_MESSAGE" value="Transform data from API to my Weather" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

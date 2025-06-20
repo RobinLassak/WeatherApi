@@ -22,6 +22,7 @@ public class WeatherService {
         wdto.setWeather_description(weatherApiDto.getCurrent().getCondition().getText());
         wdto.setWind_dir(weatherApiDto.getCurrent().getWind_dir());
         wdto.setWind_mps(weatherApiDto.getCurrent().getWind_kph()/3.6);
+        wdto.setTemp_celsius(weatherApiDto.getCurrent().getTemp_c());
         return wdto;
     }
 }
