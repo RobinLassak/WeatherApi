@@ -19,7 +19,7 @@ public class WeatherController {
     }
 
     @GetMapping("/weather/{city}")
-    public String getWeatherForCity(@PathVariable String city){
+    public String getWeatherForCity(@PathVariable("city") String city){
         return service.getWeatherForCity(city);
     }
 }

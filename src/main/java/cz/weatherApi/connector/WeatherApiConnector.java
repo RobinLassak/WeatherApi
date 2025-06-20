@@ -12,7 +12,7 @@ public class WeatherApiConnector {
     private static String baseUrl = "http://api.weatherapi.com/v1/";
     private static String urlParams = "current.json?key=";
     private static String apiKey = "7b99e5120ffa45e5b71110830251905";
-    private static String url = baseUrl + urlParams + apiKey + "$q=";
+    private static String url = baseUrl + urlParams + apiKey + "&q=";
 
     public String getWeatherForCity(String city){
         RestTemplate template = new RestTemplate();
