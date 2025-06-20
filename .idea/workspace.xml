@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4900048d-67f9-45de-affa-99aef619275d" name="Changes" comment="WeatherController">
+    <list default="true" id="4900048d-67f9-45de-affa-99aef619275d" name="Changes" comment="Dto GetSet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/weatherApi/connector/WeatherApiConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/weatherApi/connector/WeatherApiConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/weatherApi/controller/WeatherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/weatherApi/controller/WeatherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/weatherApi/service/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/weatherApi/service/WeatherService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750400097554</updated>
-      <workItem from="1750400098616" duration="7389000" />
+      <workItem from="1750400098616" duration="8321000" />
     </task>
     <task id="LOCAL-00001" summary="WeatherApiConnector">
       <option name="closed" value="true" />
@@ -109,7 +110,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750408434354</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Oprava">
+      <option name="closed" value="true" />
+      <created>1750409245380</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1750409245380</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Dto GetSet">
+      <option name="closed" value="true" />
+      <created>1750409655953</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1750409655953</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +136,9 @@
     <MESSAGE value="WeatherApiConnector" />
     <MESSAGE value="WeatherService" />
     <MESSAGE value="WeatherController" />
-    <option name="LAST_COMMIT_MESSAGE" value="WeatherController" />
+    <MESSAGE value="Oprava" />
+    <MESSAGE value="Dto GetSet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dto GetSet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
