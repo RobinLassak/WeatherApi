@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4900048d-67f9-45de-affa-99aef619275d" name="Changes" comment="City enum">
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/weatherApi/connector/WeatherApiConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/weatherApi/connector/WeatherApiConnector.java" afterDir="false" />
+    <list default="true" id="4900048d-67f9-45de-affa-99aef619275d" name="Changes" comment="Aplicate city enum">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cz/weatherApi/controller/WeatherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/weatherApi/controller/WeatherController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/weatherApi/service/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/weatherApi/service/WeatherService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750400097554</updated>
-      <workItem from="1750400098616" duration="12507000" />
+      <workItem from="1750400098616" duration="14243000" />
     </task>
     <task id="LOCAL-00001" summary="WeatherApiConnector">
       <option name="closed" value="true" />
@@ -182,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750415297451</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Aplicate city enum">
+      <option name="closed" value="true" />
+      <created>1750416001233</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1750416001233</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +205,8 @@
     <MESSAGE value="Transform data from API to my Weather" />
     <MESSAGE value="Oprava" />
     <MESSAGE value="City enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="City enum" />
+    <MESSAGE value="Aplicate city enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aplicate city enum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
