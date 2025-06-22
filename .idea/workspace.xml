@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4900048d-67f9-45de-affa-99aef619275d" name="Changes" comment="Aplicate city enum">
+    <list default="true" id="4900048d-67f9-45de-affa-99aef619275d" name="Changes" comment="Update WeatherController">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/weatherApi/controller/WeatherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/weatherApi/controller/WeatherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/weatherApi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/weatherApi/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,47 +26,312 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GroovyConsoleState">
+    <option name="list">
+      <list>
+        <Entry>
+          <option name="moduleName" value="WeatherApi" />
+          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy" />
+        </Entry>
+      </list>
+    </option>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2ylD6W9CS97dbDDX4vPUyvTuZUV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.WeatherApi (local).executor": "Run",
-    "Maven.WeatherApi [clean].executor": "Run",
-    "Maven.WeatherApi [install].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.Main.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Programování/Rekvalifikačná kurz VŠB/OOP/Java/Spring/WeatherApi/src/main/java/cz/weatherApi/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.WeatherApi (local).executor&quot;: &quot;Run&quot;,
+    &quot;Azure Web App.Azure Web App: WeatherApi.executor&quot;: &quot;Run&quot;,
+    &quot;Azure Web App.Azure Web App: WeatherApi:WeatherApi.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.WeatherApi [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.WeatherApi [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.WeatherApi [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.WeatherApi [validate].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Main.executor&quot;: &quot;Run&quot;,
+    &quot;WeatherApi.wasFacetEverAdded&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programování/Rekvalifikačná kurz VŠB/OOP/Java/Spring/WeatherApi&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Programování/Rekvalifikačná kurz VŠB/OOP/Java/Spring/WeatherApi/src/main/java/cz/weatherApi/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Azure Web App.Azure Web App: WeatherApi">
+    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
+      <option name="appName" />
+      <option name="appServicePlanName" />
+      <option name="appServicePlanResourceGroup" />
+      <option name="appSettingsKey" value="dbc72344-0e04-4949-a5c4-c1dc6b7fb52c" />
+      <option name="artifact" />
+      <option name="debugOptions" />
+      <option name="deployment" />
+      <option name="deploymentStagingDirectoryPath" />
+      <option name="funcPath" />
+      <option name="functionHostArguments" />
+      <option name="hostJsonPath" />
+      <option name="insightsName" />
+      <option name="instrumentationKey" />
+      <option name="javaVersion" />
+      <option name="localSettingsJsonPath" />
+      <option name="moduleName" />
+      <option name="os" />
+      <option name="pricingTier" />
+      <option name="providerMap">
+        <map />
+      </option>
+      <option name="region" />
+      <option name="resourceGroup" />
+      <option name="stagingFolder" />
+      <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WeatherApi (local)" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="cz.weatherApi.Main" />
       <module name="WeatherApi" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="WeatherApi" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cz.weatherApi.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Azure Web App: WeatherApi" type="com.microsoft.intellij.run.configuration.WebAppConfigurationType" factoryName="Azure Web App">
+      <option name="appServicePlanName" value="" />
+      <option name="appServicePlanResourceGroupName" value="" />
+      <option name="appSettingsKey" value="fd037346-8a29-45d8-bb62-2db5fc05cb1b" />
+      <option name="appSettingsToRemove" />
+      <option name="applicationLogLevel" value="Error" />
+      <option name="artifactIdentifier" value="cz.weatherApi:WeatherApi:1.0-SNAPSHOT" />
+      <option name="azureArtifactType" value="Maven" />
+      <option name="config">
+        <AppServiceConfig>
+          <option name="appName" value="app-WeatherAppSpring" />
+          <option name="appSettingsToRemove" />
+          <option name="diagnosticConfig" />
+          <option name="pricingTier">
+            <PricingTier>
+              <option name="size" value="U13" />
+              <option name="tier" value="LinuxFree" />
+            </PricingTier>
+          </option>
+          <option name="region">
+            <Region>
+              <option name="abbreviation" value="Poland Central" />
+              <option name="label" value="Poland Central" />
+              <option name="name" value="Poland Central" />
+            </Region>
+          </option>
+          <option name="resourceGroup" value="rg-app-WeatherAppSpring" />
+          <option name="runtime">
+            <RuntimeConfig>
+              <option name="image" />
+              <option name="javaVersion" value="Java 17" />
+              <option name="os" value="Linux" />
+              <option name="registryUrl" />
+              <option name="startUpCommand" />
+              <option name="username" />
+              <option name="webContainer" value="Java SE" />
+            </RuntimeConfig>
+          </option>
+          <option name="servicePlanName" value="asp-app-WeatherAppSpring" />
+          <option name="servicePlanResourceGroup" value="rg-app-WeatherAppSpring" />
+          <option name="slotConfig" />
+          <option name="subscriptionId" value="b3eb3b5b-c358-4a5d-b63d-8932f36638be" />
+        </AppServiceConfig>
+      </option>
+      <option name="creatingAppServicePlan" value="false" />
+      <option name="creatingNew" value="false" />
+      <option name="creatingResGrp" value="false" />
+      <option name="deployToRoot" value="true" />
+      <option name="deployToSlot" value="false" />
+      <option name="enableApplicationLog" value="false" />
+      <option name="enableDetailedErrorMessage" value="false" />
+      <option name="enableFailedRequestTracing" value="false" />
+      <option name="enableWebServerLogging" value="false" />
+      <option name="newSlotConfigurationSource" />
+      <option name="newSlotName" />
+      <option name="openBrowserAfterDeployment" value="true" />
+      <option name="operatingSystem" />
+      <option name="packaging" value="jar" />
+      <option name="pricing" value="" />
+      <option name="projectBase" value="" />
+      <option name="projectType" value="" />
+      <option name="region" value="" />
+      <option name="resourceGroup" value="" />
+      <option name="slotName" />
+      <option name="slotPanelVisible" value="false" />
+      <option name="subscriptionId" value="" />
+      <option name="targetName" value="" />
+      <option name="targetPath" value="" />
+      <option name="webAppContainer" />
+      <option name="webAppId" value="" />
+      <option name="webAppJavaVersion" />
+      <option name="webAppName" value="" />
+      <option name="webServerLogQuota" value="35" />
+      <option name="webServerRetentionPeriod" />
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="package" />
+      </method>
+    </configuration>
+    <configuration name="Azure Web App: WeatherApi:WeatherApi" type="com.microsoft.intellij.run.configuration.WebAppConfigurationType" factoryName="Azure Web App">
+      <option name="appServicePlanName" value="" />
+      <option name="appServicePlanResourceGroupName" value="" />
+      <option name="appSettingsKey" value="4d62f4d4-526c-4d68-8a7f-7906b002e5e9" />
+      <option name="appSettingsToRemove" />
+      <option name="applicationLogLevel" value="Error" />
+      <option name="artifactIdentifier" value="cz.weatherApi:WeatherApi:1.0-SNAPSHOT" />
+      <option name="azureArtifactType" value="Maven" />
+      <option name="config">
+        <AppServiceConfig>
+          <option name="appName" value="app-WeatherApiSpring02" />
+          <option name="appSettingsToRemove" />
+          <option name="diagnosticConfig" />
+          <option name="pricingTier">
+            <PricingTier>
+              <option name="size" value="U13" />
+              <option name="tier" value="LinuxFree" />
+            </PricingTier>
+          </option>
+          <option name="region">
+            <Region>
+              <option name="abbreviation" value="Poland Central" />
+              <option name="label" value="Poland Central" />
+              <option name="name" value="Poland Central" />
+            </Region>
+          </option>
+          <option name="resourceGroup" value="rg-app-WeatherApiSpring02" />
+          <option name="runtime">
+            <RuntimeConfig>
+              <option name="image" />
+              <option name="javaVersion" value="Java 17" />
+              <option name="os" value="Linux" />
+              <option name="registryUrl" />
+              <option name="startUpCommand" />
+              <option name="username" />
+              <option name="webContainer" value="Java SE" />
+            </RuntimeConfig>
+          </option>
+          <option name="servicePlanName" value="asp-app-WeatherApiSpring02" />
+          <option name="servicePlanResourceGroup" value="rg-app-WeatherApiSpring02" />
+          <option name="slotConfig" />
+          <option name="subscriptionId" value="b3eb3b5b-c358-4a5d-b63d-8932f36638be" />
+        </AppServiceConfig>
+      </option>
+      <option name="creatingAppServicePlan" value="false" />
+      <option name="creatingNew" value="false" />
+      <option name="creatingResGrp" value="false" />
+      <option name="deployToRoot" value="true" />
+      <option name="deployToSlot" value="false" />
+      <option name="enableApplicationLog" value="false" />
+      <option name="enableDetailedErrorMessage" value="false" />
+      <option name="enableFailedRequestTracing" value="false" />
+      <option name="enableWebServerLogging" value="false" />
+      <option name="newSlotConfigurationSource" />
+      <option name="newSlotName" />
+      <option name="openBrowserAfterDeployment" value="true" />
+      <option name="operatingSystem" />
+      <option name="packaging" value="jar" />
+      <option name="pricing" value="" />
+      <option name="projectBase" value="" />
+      <option name="projectType" value="" />
+      <option name="region" value="" />
+      <option name="resourceGroup" value="" />
+      <option name="slotName" />
+      <option name="slotPanelVisible" value="false" />
+      <option name="subscriptionId" value="" />
+      <option name="targetName" value="" />
+      <option name="targetPath" value="" />
+      <option name="webAppContainer" />
+      <option name="webAppId" value="" />
+      <option name="webAppJavaVersion" />
+      <option name="webAppName" value="" />
+      <option name="webServerLogQuota" value="35" />
+      <option name="webServerRetentionPeriod" />
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="package" />
+      </method>
+    </configuration>
+    <configuration default="true" type="com.microsoft.intellij.run.configuration.WebAppConfigurationType" factoryName="Azure Web App">
+      <option name="appServicePlanName" value="" />
+      <option name="appServicePlanResourceGroupName" value="" />
+      <option name="appSettingsKey" value="34da0ddc-0dbb-44b3-8745-a77e5e7fd193" />
+      <option name="appSettingsToRemove" />
+      <option name="applicationLogLevel" value="Error" />
+      <option name="artifactIdentifier" />
+      <option name="azureArtifactType" />
+      <option name="config">
+        <AppServiceConfig>
+          <option name="appName" />
+          <option name="appSettingsToRemove" />
+          <option name="diagnosticConfig" />
+          <option name="pricingTier" />
+          <option name="region" />
+          <option name="resourceGroup" />
+          <option name="runtime" />
+          <option name="servicePlanName" />
+          <option name="servicePlanResourceGroup" />
+          <option name="slotConfig" />
+          <option name="subscriptionId" />
+        </AppServiceConfig>
+      </option>
+      <option name="creatingAppServicePlan" value="false" />
+      <option name="creatingNew" value="false" />
+      <option name="creatingResGrp" value="false" />
+      <option name="deployToRoot" value="true" />
+      <option name="deployToSlot" value="false" />
+      <option name="enableApplicationLog" value="false" />
+      <option name="enableDetailedErrorMessage" value="false" />
+      <option name="enableFailedRequestTracing" value="false" />
+      <option name="enableWebServerLogging" value="false" />
+      <option name="newSlotConfigurationSource" />
+      <option name="newSlotName" />
+      <option name="openBrowserAfterDeployment" value="true" />
+      <option name="operatingSystem" />
+      <option name="packaging" />
+      <option name="pricing" value="" />
+      <option name="projectBase" value="" />
+      <option name="projectType" value="" />
+      <option name="region" value="" />
+      <option name="resourceGroup" value="" />
+      <option name="slotName" />
+      <option name="slotPanelVisible" value="false" />
+      <option name="subscriptionId" value="" />
+      <option name="targetName" value="" />
+      <option name="targetPath" value="" />
+      <option name="webAppContainer" />
+      <option name="webAppId" value="" />
+      <option name="webAppJavaVersion" />
+      <option name="webAppName" value="" />
+      <option name="webServerLogQuota" value="35" />
+      <option name="webServerRetentionPeriod" />
+      <method v="2" />
     </configuration>
   </component>
   <component name="SharedIndexes">
@@ -83,7 +350,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750400097554</updated>
-      <workItem from="1750400098616" duration="14243000" />
+      <workItem from="1750400098616" duration="14560000" />
+      <workItem from="1750417957213" duration="59000" />
+      <workItem from="1750418045004" duration="38000" />
+      <workItem from="1750423177908" duration="63000" />
+      <workItem from="1750610591959" duration="7343000" />
+      <workItem from="1750621690906" duration="2383000" />
     </task>
     <task id="LOCAL-00001" summary="WeatherApiConnector">
       <option name="closed" value="true" />
@@ -189,7 +461,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750416001233</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update WeatherController">
+      <option name="closed" value="true" />
+      <created>1750417622461</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1750417622461</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,14 +486,15 @@
     <MESSAGE value="Oprava" />
     <MESSAGE value="City enum" />
     <MESSAGE value="Aplicate city enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aplicate city enum" />
+    <MESSAGE value="Update WeatherController" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update WeatherController" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/cz/weatherApi/Main.java</url>
-          <line>12</line>
+          <line>9</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
