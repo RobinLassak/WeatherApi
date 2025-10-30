@@ -93,3 +93,9 @@ build/
 /frontend/*.temp
 /frontend/*.bak
 /frontend/*.pid
+
+# TODO složka s dokumentací
+TODO/
+
+# API klíče
+ApiKey.txt
