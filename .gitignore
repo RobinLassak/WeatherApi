@@ -1,9 +1,11 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
+# ===== Backend (Maven / Spring Boot) =====
+backend/target/
+backend/ApiKey.txt
+!backend/.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### IntelliJ IDEA ###
+# ===== IntelliJ IDEA =====
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
@@ -12,7 +14,7 @@ target/
 *.iml
 *.ipr
 
-### Eclipse ###
+# ===== Eclipse =====
 .apt_generated
 .classpath
 .factorypath
@@ -21,81 +23,46 @@ target/
 .springBeans
 .sts4-cache
 
-### NetBeans ###
+# ===== NetBeans =====
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
+# ===== VS Code =====
 .vscode/
 
-### Mac OS ###
+# ===== Mac OS =====
 .DS_Store
+Thumbs.db
 
-# ===== Angular =====
-/frontend/dist/
-/frontend/.angular/
-/frontend/.angular/cache/
-/frontend/out-tsc/
-/frontend/coverage/
-/frontend/tmp/
+# ===== Frontend (React + Vite) =====
+frontend/dist/
+frontend/node_modules/
+frontend/.angular/
+frontend/out-tsc/
+frontend/coverage/
+frontend/tmp/
+frontend/.npm/
+frontend/*.tsbuildinfo
+frontend/*.tsbuildinfo.*
+frontend/.eslintcache
+frontend/.sass-cache/
+frontend/playwright-report/
+frontend/blob-report/
+frontend/test-results/
+frontend/.nyc_output/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+frontend/*.tmp
+frontend/*.temp
+frontend/*.bak
 
-# Node
-/frontend/node_modules/
-/frontend/.npm/
-
-# TypeScript
-/frontend/*.tsbuildinfo
-/frontend/*.tsbuildinfo.*
-
-# Linty / cache
-/frontend/.eslintcache
-/frontend/.sass-cache/
-
-# Test nástroje
-/frontend/cypress/videos/
-/frontend/cypress/screenshots/
-/frontend/cypress/downloads/
-/frontend/playwright-report/
-/frontend/blob-report/
-/frontend/test-results/
-/frontend/.nyc_output/
-/frontend/karma-debug.log
-
-# Storybook
-/frontend/storybook-static/
-/frontend/.storybook-out/
-
-# Logy
-/frontend/npm-debug.log*
-/frontend/yarn-debug.log*
-/frontend/yarn-error.log*
-/frontend/pnpm-debug.log*
-/frontend/.pnpm-debug.log*
-
-# Env
-/frontend/.env
-/frontend/.env.*
-!/frontend/.env.example
-
-# Editor / OS drobnosti (jen ve frontend/)
- /frontend/.vscode/
-/frontend/.DS_Store
-/frontend/Thumbs.db
-
-# Dočasné / záložní
-/frontend/*.tmp
-/frontend/*.temp
-/frontend/*.bak
-/frontend/*.pid
-
-# TODO složka s dokumentací
+# ===== Obecne =====
 TODO/
-
-# API klíče
-ApiKey.txt
