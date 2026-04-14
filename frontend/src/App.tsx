@@ -37,7 +37,7 @@ export default function App() {
           setCities((prev) =>
             prev.map((item, i) =>
               i === index
-                ? { ...item, loading: false, error: 'Nepodarilo se nactit data' }
+                ? { ...item, loading: false, error: 'Nepodařilo se načíst data' }
                 : item,
             ),
           );

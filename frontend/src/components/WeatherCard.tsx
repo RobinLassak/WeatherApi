@@ -42,7 +42,7 @@ export default function WeatherCard({ city, data, error }: Props) {
         </div>
         <div className="p-5 flex-1 flex flex-col items-center justify-center gap-2 text-center">
           <AlertCircle size={22} className="text-red-400/70" />
-          <p className="text-red-400/80 text-sm">{error ?? 'Chyba pri nacitani dat'}</p>
+          <p className="text-red-400/80 text-sm">{error ?? 'Chyba při načítání dat'}</p>
         </div>
       </div>
     );
@@ -95,20 +95,20 @@ export default function WeatherCard({ city, data, error }: Props) {
 
           <div className="flex items-center gap-2.5">
             <Wind size={14} className="text-cyan-400 shrink-0" />
-            <span className="text-white/50 text-xs flex-1">Vtr</span>
+            <span className="text-white/50 text-xs flex-1">Vítr</span>
             <span className="text-white text-xs font-medium tabular-nums">{windSpeed} m/s</span>
           </div>
 
           <div className="flex items-center gap-2.5">
             <Compass size={14} className="text-violet-400 shrink-0" />
-            <span className="text-white/50 text-xs flex-1">Smer vetru</span>
+            <span className="text-white/50 text-xs flex-1">Směr větru</span>
             <span className="text-white text-xs font-medium">{data.wind_dir}</span>
           </div>
 
           {timeOnly && (
             <div className="flex items-center gap-2.5 pt-1 border-t border-white/[0.07]">
               <Clock size={13} className="text-white/25 shrink-0" />
-              <span className="text-white/30 text-xs">Mereno v {timeOnly}</span>
+              <span className="text-white/30 text-xs">Měřeno v {timeOnly}</span>
             </div>
           )}
         </div>

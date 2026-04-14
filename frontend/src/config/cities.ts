@@ -4,7 +4,7 @@ export const CITIES: CityConfig[] = [
   {
     key: 'ostrava',
     name: 'Ostrava',
-    country: 'Ceska republika',
+    country: 'Česká republika',
     image: 'https://images.unsplash.com/photo-1584820166974-2fe573a36e0c?w=800&q=80&fit=crop',
   },
   {
@@ -22,13 +22,13 @@ export const CITIES: CityConfig[] = [
   {
     key: 'madrid',
     name: 'Madrid',
-    country: 'Spanelsko',
+    country: 'Španělsko',
     image: 'https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=800&q=80&fit=crop',
   },
   {
     key: 'sydney',
     name: 'Sydney',
-    country: 'Australie',
+    country: 'Austrálie',
     image: 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=800&q=80&fit=crop',
   },
 ];

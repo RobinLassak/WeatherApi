@@ -28,7 +28,7 @@ export default function WeatherCardSkeleton({ city }: Props) {
           ))}
         </div>
       </div>
-      <span className="sr-only">Nacitam data pro {city.name}</span>
+      <span className="sr-only">Načítám data pro {city.name}</span>
     </div>
   );
 }

@@ -18,7 +18,7 @@ export default function Header({ onRefresh, refreshing, lastFetched }: HeaderPro
           Weather<span className="text-blue-400">Scope</span>
         </h1>
         <p className="text-white/50 text-lg mb-6">
-          Aktualni pocasi ve svetovych metropolich
+          Aktuální počasí ve světových metropolích
         </p>
         <div className="flex items-center justify-center gap-4">
           <button
@@ -30,11 +30,11 @@ export default function Header({ onRefresh, refreshing, lastFetched }: HeaderPro
               size={15}
               className={refreshing ? 'animate-spin' : ''}
             />
-            {refreshing ? 'Nacitam...' : 'Obnovit data'}
+            {refreshing ? 'Načítám…' : 'Obnovit data'}
           </button>
           {formattedTime && (
             <span className="text-white/30 text-sm">
-              Posledni aktualizace: {formattedTime}
+              Poslední aktualizace: {formattedTime}
             </span>
           )}
         </div>
