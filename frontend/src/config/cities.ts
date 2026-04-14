@@ -5,13 +5,15 @@ export const CITIES: CityConfig[] = [
     key: 'ostrava',
     name: 'Ostrava',
     country: 'Česká republika',
-    image: 'https://images.unsplash.com/photo-1584820166974-2fe573a36e0c?w=800&q=80&fit=crop',
+    image:
+      'https://images.unsplash.com/photo-1674122613813-767d23888f81?w=800&q=80&fit=crop',
   },
   {
     key: 'helsinki',
     name: 'Helsinki',
     country: 'Finsko',
-    image: 'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80&fit=crop',
+    image:
+      'https://images.unsplash.com/photo-1683119167031-19bf5bd185de?w=800&q=80&fit=crop',
   },
   {
     key: 'tokyo',
